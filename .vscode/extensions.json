@@ -1,0 +1,7 @@
+{
+    "recommendations": [
+        "christian-kohler.npm-intellisense",
+        "christian-kohler.path-intellisense",
+        "wayou.vscode-todo-highlight"
+    ]
+}
