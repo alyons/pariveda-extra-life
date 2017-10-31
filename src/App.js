@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Display from './components/display';
 
 class App extends Component {
   render() {
@@ -12,6 +13,7 @@ class App extends Component {
         </header>
         <p className="App-intro">
           Here is where we should put various components to monitor the different items.
+          <Display />
         </p>
       </div>
     );
