@@ -16,7 +16,12 @@ export default function teamReducer(state = initialState, action) {
     const team = {...newState.team};
     switch (action.type) {
         case types.GET_TEAM_INFO_SUCCESS: {
+            console.log(action.payload);
             return assign({}, newState, action.payload);
+        }
+        case types.GET_TEAM_INFO_FAILURE: {
+            console.log(action.payload);
+            return state;
         }
         default: {
             return state;

@@ -4,11 +4,10 @@ export function getTeamInfoRequest() {
     return { type: GET_TEAM_INFO_REQUEST };
 }
 
-export function getTeamInfoSuccess(payload) {
-    console.log(payload.json());
+export function getTeamInfoSuccess(res) {
     return {
         type: GET_TEAM_INFO_SUCCESS,
-        payload
+        payload: res
     }
 }
 
