@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import ReactQueryParams from 'react-query-params';
 import './AppUI.css';
 import Display from '../components/display';
