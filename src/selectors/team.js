@@ -18,7 +18,7 @@ export const getName = (state) => {
     return state.team.name || '';
 };
 
-export const getID = (state) => {
+export const getId = (state) => {
     return state.team.teamID || 0;
 };
 

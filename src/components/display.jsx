@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import Progress from 'react-progressbar';
 import { connect } from 'react-redux';
-import * as TeamActions from '../actions/team';
 
 function mapStateToProps(state, props) {
     return {
@@ -11,20 +10,10 @@ function mapStateToProps(state, props) {
 
 function mapDispatchToProps(dispatch) {
     return {
-        getTeamInfo: () => dispatch(TeamActions.getTeamInfo())
     }
 };
 
 class Display extends Component {
-
-    constructor(props) {
-        super(props);
-        this.onClickLoadData = this.onClickLoadData.bind(this);
-    }
-
-    onClickLoadData() {
-        this.props.getTeamInfo();
-    }
 
     render() {
 
@@ -45,7 +34,10 @@ class Display extends Component {
             );
         } else {
             componentToRender = (
-                <button onClick={()=>this.onClickLoadData()}>Load Data</button>
+                <p>
+                    Loading team data from query params. If you don't see anything, try adding '?teamID=' followed by
+                    your team's id.
+                </p>
             );
         }
 
