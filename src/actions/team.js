@@ -5,7 +5,7 @@ export function getTeamInfoRequest() {
 }
 
 export function getTeamInfoSuccess(payload) {
-    console.log(payload);
+    console.log(payload.json());
     return {
         type: GET_TEAM_INFO_SUCCESS,
         payload
