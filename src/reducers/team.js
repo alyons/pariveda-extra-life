@@ -13,7 +13,6 @@ const initialState = {
 
 export default function teamReducer(state = initialState, action) {
     const newState = assign({}, state);
-    const team = {...newState.team};
     switch (action.type) {
         case types.GET_TEAM_INFO_SUCCESS: {
             console.log(action.payload);

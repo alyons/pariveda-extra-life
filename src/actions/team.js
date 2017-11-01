@@ -24,7 +24,8 @@ export function getTeamInfo() {
     return dispatch => {
         dispatch(getTeamInfoRequest);
         return fetch(url)
-            .then(res => dispatch(getTeamInfoSuccess(res)))
+            .then(res => res.json())
+            .then(body => dispatch(getTeamInfoSuccess(body)))
             .catch(err => dispatch(getTeamInfoFailure(err)));
     };
 
