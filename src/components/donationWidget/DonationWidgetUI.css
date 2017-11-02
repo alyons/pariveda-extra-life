@@ -1,0 +1,45 @@
+#donation {
+    width: 100px;
+    float: left;
+    padding: 5px 15px;
+    border: 1px solid green;
+}
+
+.bar-container {
+    height: 500px;
+}
+
+.goal-bar {
+    position: relative;
+    height: 100%;
+}
+
+.bar-wrap {
+    position: relative;
+    height: 100%;
+    background: blue;
+    border: 1px solid red;
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.bar {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: green;
+    transition: all 0.2s;
+}
+
+.bar-info {
+    position: relative;
+    margin: 5px;
+}
+
+.bar-info-inner {
+    padding: 2px;
+    background: red;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+}
