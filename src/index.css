@@ -1,7 +1,7 @@
 /* Based on https://codepen.io/Cheesetoast/pen/KFAaq */
 
 body {
-  font-family: sans-serif;
+  font-family: 'Lato', sans-serif;
 }
 
 #container {
@@ -12,6 +12,7 @@ body {
 }
 
 header {
+  font-family: 'Montserrat', sans-serif;
   height: 100px;
   margin: 0 15px;
   border: 1px solid red;
