@@ -1,19 +1,19 @@
 import React, { Component } from 'react';
 
-class DonationWidgetUI extends Component {
+class RosterWidgetUI extends Component {
     render() {
         let componentToRender;
 
         componentToRender = (
-            <p>Verbage about components goes here...</p>
+            <p>Here is where the team list goes</p>
         );
 
         return (
-            <div id='donation'>
+            <div id='roster'>
                 {componentToRender}
             </div>
         );
     }
 }
 
-export default DonationWidgetUI;
+export default RosterWidgetUI;

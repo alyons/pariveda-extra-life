@@ -16,6 +16,7 @@ header {
 }
 
 #donation {
+  min-height: 480px;
   width: 290px;
   float: left;
   padding: 5px 15px;
