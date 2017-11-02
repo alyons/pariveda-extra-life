@@ -29,12 +29,6 @@ header {
   margin: 0px 5px 5px 5px;
 }
 
-#roster {
-  width: 270px;
-  padding: 5px 15px;
-  float: left
-}
-
 footer {
   clear: both;
   padding: 0 15px;

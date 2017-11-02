@@ -1,0 +1,9 @@
+#roster-list {
+    width: 270px;
+    padding: 5px 15px;
+    float: left
+}
+
+#roster-item {
+    height: 150px;
+}
