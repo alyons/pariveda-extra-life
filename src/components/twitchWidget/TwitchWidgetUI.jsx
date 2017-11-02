@@ -6,11 +6,24 @@ class TwitchWidgetUI extends Component {
     }
 
     render() {
+        const { users, streams } = this.props;
         let componentToRender;
 
-        componentToRender = (
-            <p>Here is the twitch stuff...</p>
-        );
+        if (users.length === 0) {
+            componentToRender = (
+                <p>No Twitch channels provided.</p>
+            );
+        } else {
+            const streamItems = users.map((streamer, i) => (
+                <li key={i}>
+                    <p>{streamer.display_name}</p>
+                </li>
+            ));
+
+            componentToRender = (
+                <ul>{streamItems}</ul>
+            );
+        }
 
         return (
             <div id='twitch'>
