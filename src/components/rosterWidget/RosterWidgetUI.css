@@ -1,0 +1,39 @@
+#roster-list {
+    width: 400px;
+    padding: 5px 15px;
+    float: right;
+    border: 1px solid yellow;
+}
+
+.roster-item {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.roster-avatar {
+    margin: 10px;
+    width: 80px;
+    height: 80px;
+    vertical-align: middle;
+    border: 1px solid red;
+}
+
+.roster-info {
+    flex-grow: 100;
+    border: 1px solid green;
+}
+
+.roster-donate {
+    padding: 10% 0;
+    width: 100px;
+    border: 1px solid blue;
+}
+
+.roster-donate-link {
+    background-color: lightblue;
+    border-radius: 3px;
+    padding: 4px 10px;
+    color: white;
+}

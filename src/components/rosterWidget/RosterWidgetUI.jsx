@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './RosterWidgetUI.css';
 
 function compare(a, b) {
     if (a.totalRaisedAmount < b.totalRaisedAmount)
@@ -20,18 +21,24 @@ class RosterWidgetUI extends Component {
         } else {
             const rosterOrdered = roster.sort(compare).reverse();
             const rosterItems = rosterOrdered.map((member, i) => (
-                <li key={i}>
-                    <p>{member.displayName}</p>
-                    <p>{member.totalRaisedAmount}</p>
-                </li>
+                <div key={i} class="roster-item" >
+                    <img class="roster-avatar" src={member.avatarImageURL} />
+                    <div class="roster-info">
+                        <p>{member.displayName}</p>
+                        <p>{`$${member.totalRaisedAmount}`}</p>
+                    </div>
+                    <div class="roster-donate">
+                        <a class="roster-donate-link" href={`https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=${member.participantID}`} target="_blank">Donate</a>
+                    </div>
+                </div>
             ));
             componentToRender = (
-                <ol>{rosterItems}</ol>
+                <div>{rosterItems}</div>
             );
         }
 
         return (
-            <div id='roster'>
+            <div id="roster-list">
                 {componentToRender}
             </div>
         );
