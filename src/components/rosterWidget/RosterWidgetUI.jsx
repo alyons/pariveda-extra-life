@@ -21,11 +21,15 @@ class RosterWidgetUI extends Component {
         } else {
             const rosterOrdered = roster.sort(compare).reverse();
             const rosterItems = rosterOrdered.map((member, i) => (
-                <div key={i} id="roster-item">
-                    <img src={member.avatarImageURL} />
-                    <p>{member.displayName}</p>
-                    <p>{member.totalRaisedAmount}</p>
-                    <a href={`https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=${member.participantID}`} target="_blank">Donate</a>
+                <div key={i} class="roster-item" >
+                    <img class="roster-avatar" src={member.avatarImageURL} />
+                    <div class="roster-info">
+                        <p>{member.displayName}</p>
+                        <p>{`$${member.totalRaisedAmount}`}</p>
+                    </div>
+                    <div class="roster-donate">
+                        <a class="roster-donate-link" href={`https://www.extra-life.org/index.cfm?fuseaction=donorDrive.participant&participantID=${member.participantID}`} target="_blank">Donate</a>
+                    </div>
                 </div>
             ));
             componentToRender = (
