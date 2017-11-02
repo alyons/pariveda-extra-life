@@ -20,7 +20,7 @@ class RosterWidgetUI extends Component {
         } else {
             const rosterOrdered = roster.sort(compare).reverse();
             const rosterItems = rosterOrdered.map((member, i) => (
-                <li>
+                <li key={i}>
                     <p>{member.displayName}</p>
                     <p>{member.totalRaisedAmount}</p>
                 </li>
