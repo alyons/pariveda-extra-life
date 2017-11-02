@@ -1,4 +1,7 @@
-import { GET_TEAM_INFO_REQUEST, GET_TEAM_INFO_SUCCESS, GET_TEAM_INFO_FAILURE } from './actionTypes';
+import { GET_TEAM_INFO_REQUEST, 
+         GET_TEAM_INFO_SUCCESS, 
+         GET_TEAM_INFO_FAILURE,
+         SET_TEAM_ID } from './actionTypes';
 
 export function getTeamInfoRequest() {
     return { type: GET_TEAM_INFO_REQUEST };
@@ -18,8 +21,8 @@ export function getTeamInfoFailure(payload) {
     };
 }
 
-export function getTeamInfo() {
-    const url = 'https://www.extra-life.org/index.cfm?fuseaction=donordrive.team&teamID=33379&format=json';
+export function getTeamInfo(teamId) {
+    const url = 'https://www.extra-life.org/index.cfm?fuseaction=donordrive.team&teamID=' + teamId + '&format=json';
     return dispatch => {
         dispatch(getTeamInfoRequest);
         return fetch(url)
@@ -27,4 +30,11 @@ export function getTeamInfo() {
             .then(body => dispatch(getTeamInfoSuccess(body)))
             .catch(err => dispatch(getTeamInfoFailure(err)));
     };
+}
+
+export function setTeamId(teamId) {
+    return {
+        type: SET_TEAM_ID,
+        payload: teamId
+    }
 }
