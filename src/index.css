@@ -8,18 +8,13 @@ body {
   padding: 5px;
   width: 960px;
   margin: 20px auto;
+  border: 1px solid black;
 }
 
 header {
   height: 100px;
   margin: 0 15px;
-}
-
-#donation {
-  min-height: 480px;
-  width: 290px;
-  float: left;
-  padding: 5px 15px;
+  border: 1px solid red;
 }
 
 #twitch {
@@ -27,9 +22,11 @@ header {
   float: left;
   padding: 5px 15px;
   margin: 0px 5px 5px 5px;
+  border: 1px solid blue;
 }
 
 footer {
   clear: both;
   padding: 0 15px;
+  border: 1px solid pink;
 }
