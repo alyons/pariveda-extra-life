@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Progress from 'react-progressbar';
+import './DonationWidgetUI.css';
 
 class DonationWidgetUI extends Component {
     render() {
@@ -8,11 +8,28 @@ class DonationWidgetUI extends Component {
         let componentToRender;
 
         if (fundraisingGoal) {
-            donationProgress = Math.min((totalRaisedAmount / fundraisingGoal * 100), 100);
+            donationProgress = Math.round(100 - Math.min((totalRaisedAmount / fundraisingGoal * 100), 100));
+            const barStyle = {
+                transform: `translateY(${donationProgress}%)`
+            };
             componentToRender = (
                 <div>
-                    <Progress completed={donationProgress} />
-                    {name} have raised ${totalRaisedAmount} out of ${fundraisingGoal}.
+                    <div class="goal">
+                        {`$${fundraisingGoal}`}
+                    </div>
+                    <div class="bar-container">
+                        <div class="goal-bar">
+                            <div class="bar-wrap">
+                                <div class="bar" style={barStyle}>
+                                    <div class="bar-info">
+                                        <div class="bar-info-inner">
+                                            {`$${totalRaisedAmount}`}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             );
         } else {
@@ -22,7 +39,7 @@ class DonationWidgetUI extends Component {
         }
 
         return (
-            <div id='donation'>
+            <div id="donation">
                 {componentToRender}
             </div>
         );
