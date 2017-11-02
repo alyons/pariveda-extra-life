@@ -13,7 +13,7 @@ class TwitchWidgetUI extends Component {
         );
 
         return (
-            <div>
+            <div id='twitch'>
                 {componentToRender}
             </div>
         );

@@ -42,7 +42,7 @@ class Display extends Component {
         }
 
         return (
-            <div>
+            <div id='donation'>
                 {componentToRender}
             </div>
         );
