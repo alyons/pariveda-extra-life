@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactQueryParams from 'react-query-params';
 import './AppUI.css';
-import Display from '../components/display';
 import { DonationWidget } from '../components/donationWidget';
 import { TwitchWidget } from '../components/twitchWidget';
 import { RosterWidget } from '../components/rosterWidget';

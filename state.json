@@ -1,0 +1,440 @@
+{
+  team: {
+    totalRaisedAmount: 3403.38,
+    fundraisingGoal: 10000,
+    createdOn: '2017-01-10T16:08:09-0500',
+    timestamp: 201701100908090,
+    avatarImageURL: '//assets.donordrive.com/extralife/images/$event534$/avatar_team_33379.jpg',
+    teamID: 33379,
+    name: 'Pariveda Solutions',
+    roster: [
+      {
+        displayName: 'William Clark',
+        totalRaisedAmount: 655,
+        participantID: 281548,
+        createdOn: '2017-10-18T10:31:15-0400',
+        timestamp: 20171018023115604,
+        avatarImageURL: '//assets.donordrive.com/extralife/images/$avatars$/constituent_84BA8BDD-FC6E-2B92-4805A828FE0F45A2.jpg',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Mike Drewett',
+        totalRaisedAmount: 530,
+        participantID: 247936,
+        createdOn: '2017-01-10T16:48:08-0500',
+        timestamp: 20170110094808284,
+        avatarImageURL: '//assets.donordrive.com/extralife/images/$avatars$/constituent_4EF98594-5056-8A43-9BF3E351DA3D14C7.jpg',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Houston Office',
+        totalRaisedAmount: 513.37,
+        participantID: 281031,
+        createdOn: '2017-10-17T17:28:57-0400',
+        timestamp: 20171017092857292,
+        avatarImageURL: '//assets.donordrive.com/clients/extralife/img/avatar-constituent-default.gif',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Christopher Aikens',
+        totalRaisedAmount: 465.01,
+        participantID: 248738,
+        createdOn: '2017-01-19T17:29:30-0500',
+        timestamp: 20170119102930908,
+        avatarImageURL: '//assets.donordrive.com/extralife/images/$avatars$/constituent_44EFBD86-A937-954E-523FE202C9123691.jpg',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Allison Moy',
+        totalRaisedAmount: 200,
+        participantID: 270074,
+        createdOn: '2017-09-17T20:34:21-0400',
+        timestamp: 201709181234210,
+        avatarImageURL: '//assets.donordrive.com/extralife/images/$avatars$/constituent_B81A91A2-E8F9-2BAE-B7748CEE36FC3633.jpg',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Sean Tannehill',
+        totalRaisedAmount: 130,
+        participantID: 271929,
+        createdOn: '2017-09-25T15:02:08-0400',
+        timestamp: 20170925070208416,
+        avatarImageURL: '//assets.donordrive.com/clients/extralife/img/avatar-constituent-default.gif',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Jonathan Doherty',
+        totalRaisedAmount: 125,
+        participantID: 247929,
+        createdOn: '2017-01-10T16:12:18-0500',
+        timestamp: 20170110091218836,
+        avatarImageURL: '//assets.donordrive.com/extralife/images/$avatars$/constituent_665FFC1F-F713-4FF3-6094D25AC4486B29.jpg',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Brad Bergeron',
+        totalRaisedAmount: 125,
+        participantID: 269100,
+        createdOn: '2017-09-12T09:02:21-0400',
+        timestamp: 20170912010221150,
+        avatarImageURL: '//assets.donordrive.com/clients/extralife/img/avatar-constituent-default.gif',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Christine Lew',
+        totalRaisedAmount: 85,
+        participantID: 280939,
+        createdOn: '2017-10-17T14:57:35-0400',
+        timestamp: 20171017065735536,
+        avatarImageURL: '//assets.donordrive.com/extralife/images/$avatars$/constituent_8D5C548E-0DFE-AC07-48E5FB7298A26167.jpg',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Steven Muschler',
+        totalRaisedAmount: 75,
+        participantID: 268409,
+        createdOn: '2017-09-06T20:45:23-0400',
+        timestamp: 201709071245230,
+        avatarImageURL: '//assets.donordrive.com/clients/extralife/img/avatar-constituent-default.gif',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Tony Huynh',
+        totalRaisedAmount: 50,
+        participantID: 276213,
+        createdOn: '2017-10-06T10:21:44-0400',
+        timestamp: 20171006022144876,
+        avatarImageURL: '//assets.donordrive.com/clients/extralife/img/avatar-constituent-default.gif',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'David Doering',
+        totalRaisedAmount: 50,
+        participantID: 264930,
+        createdOn: '2017-08-15T11:29:23-0400',
+        timestamp: 20170815032923516,
+        avatarImageURL: '//assets.donordrive.com/extralife/images/$avatars$/constituent_8E58EF6F-0318-2C86-6F96977946BB0009.jpg',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Lane Sawyer',
+        totalRaisedAmount: 50,
+        participantID: 281036,
+        createdOn: '2017-10-17T17:35:37-0400',
+        timestamp: 20171017093537172,
+        avatarImageURL: '//www.gravatar.com/avatar/747a12eab6820dcc60677c15e1d10a5f?s=200',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Phillip Manwaring',
+        totalRaisedAmount: 50,
+        participantID: 276207,
+        createdOn: '2017-10-06T10:14:15-0400',
+        timestamp: 2017100602141560,
+        avatarImageURL: '//www.gravatar.com/avatar/d7a3914657bce96d2ad2642d8be6b6ce?s=200',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Kathleen Tully',
+        totalRaisedAmount: 50,
+        participantID: 247884,
+        createdOn: '2017-01-10T10:23:11-0500',
+        timestamp: 20170110032311616,
+        avatarImageURL: '//assets.donordrive.com/extralife/images/$avatars$/constituent_F9053EB4-0E0A-07F0-46508F6006AC31B1.jpg',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Andrew Williams',
+        totalRaisedAmount: 50,
+        participantID: 274977,
+        createdOn: '2017-10-03T20:37:20-0400',
+        timestamp: 20171004123720684,
+        avatarImageURL: '//assets.donordrive.com/clients/extralife/img/avatar-constituent-default.gif',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Tyler Glass',
+        totalRaisedAmount: 40,
+        participantID: 288060,
+        createdOn: '2017-10-31T16:33:18-0400',
+        timestamp: 20171031083318250,
+        avatarImageURL: '//assets.donordrive.com/clients/extralife/img/avatar-constituent-default.gif',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Nathan Clemente',
+        totalRaisedAmount: 40,
+        participantID: 247931,
+        createdOn: '2017-01-10T16:19:09-0500',
+        timestamp: 201701100919090,
+        avatarImageURL: '//assets.donordrive.com/extralife/images/$avatars$/constituent_D2BE034E-5056-8A66-29D257B060BDF65D.jpg',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Connor Krier',
+        totalRaisedAmount: 40,
+        participantID: 273011,
+        createdOn: '2017-09-29T17:38:24-0400',
+        timestamp: 20170929093824190,
+        avatarImageURL: '//assets.donordrive.com/extralife/images/$avatars$/constituent_1BC44565-D115-D246-20EAF9876990C47B.jpg',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Robert McCall',
+        totalRaisedAmount: 30,
+        participantID: 271901,
+        createdOn: '2017-09-25T13:29:58-0400',
+        timestamp: 2017092505295850,
+        avatarImageURL: '//assets.donordrive.com/clients/extralife/img/avatar-constituent-default.gif',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Garrett Stoll',
+        totalRaisedAmount: 25,
+        participantID: 281033,
+        createdOn: '2017-10-17T17:31:28-0400',
+        timestamp: 20171017093128780,
+        avatarImageURL: '//assets.donordrive.com/extralife/images/$avatars$/constituent_A792FB1B-5056-8A68-8DE521F430AE0E68.jpg',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Nathan Luo',
+        totalRaisedAmount: 25,
+        participantID: 276208,
+        createdOn: '2017-10-06T10:14:51-0400',
+        timestamp: 20171006021451852,
+        avatarImageURL: '//assets.donordrive.com/clients/extralife/img/avatar-constituent-default.gif',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Robert Greiner',
+        totalRaisedAmount: 0,
+        participantID: 275317,
+        createdOn: '2017-10-04T12:54:23-0400',
+        timestamp: 20171004045423780,
+        avatarImageURL: '//www.gravatar.com/avatar/f382e5debfed651fcdf8487622093431?s=200',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Dan Bolivar',
+        totalRaisedAmount: 0,
+        participantID: 268462,
+        createdOn: '2017-09-07T12:19:26-0400',
+        timestamp: 20170907041926544,
+        avatarImageURL: '//www.gravatar.com/avatar/ed720060cf0e333c392c104dfc0ce3d8?s=200',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Anthony Yu',
+        totalRaisedAmount: 0,
+        participantID: 284148,
+        createdOn: '2017-10-24T15:01:05-0400',
+        timestamp: 20171024070105250,
+        avatarImageURL: '//assets.donordrive.com/extralife/images/$avatars$/constituent_7D31DE88-5056-8A66-2931F36A052523A8.jpg',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Alexander Lyons',
+        totalRaisedAmount: 0,
+        participantID: 251380,
+        createdOn: '2017-03-03T07:54:17-0500',
+        timestamp: 20170303125417976,
+        avatarImageURL: '//assets.donordrive.com/extralife/images/$avatars$/constituent_79DC473F-5056-8A68-8D63A96B8B2D328C.jpg',
+        isTeamCaptain: true
+      },
+      {
+        displayName: 'Alexander Lyons',
+        totalRaisedAmount: 0,
+        participantID: 281032,
+        createdOn: '2017-10-17T17:31:10-0400',
+        timestamp: 20171017093110910,
+        avatarImageURL: '//assets.donordrive.com/clients/extralife/img/avatar-constituent-default.gif',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Connor Minton',
+        totalRaisedAmount: 0,
+        participantID: 275263,
+        createdOn: '2017-10-04T10:24:03-0400',
+        timestamp: 20171004022403490,
+        avatarImageURL: '//assets.donordrive.com/clients/extralife/img/avatar-constituent-default.gif',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Sofia Thai',
+        totalRaisedAmount: 0,
+        participantID: 247932,
+        createdOn: '2017-01-10T16:24:30-0500',
+        timestamp: 20170110092430710,
+        avatarImageURL: '//assets.donordrive.com/extralife/images/$avatars$/constituent_66C74221-B00B-EAEF-BC15CE7EA2521C6B.jpg',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'LA Office',
+        totalRaisedAmount: 0,
+        participantID: 281578,
+        createdOn: '2017-10-18T11:46:36-0400',
+        timestamp: 20171018034636212,
+        avatarImageURL: '//assets.donordrive.com/clients/extralife/img/avatar-constituent-default.gif',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Pariveda Solutions Washington DC',
+        totalRaisedAmount: 0,
+        participantID: 287159,
+        createdOn: '2017-10-30T14:47:18-0400',
+        timestamp: 20171030064718748,
+        avatarImageURL: '//assets.donordrive.com/extralife/images/$avatars$/constituent_79A321BA-5056-8A68-8D0DC3C880819EAD.jpg',
+        isTeamCaptain: false
+      },
+      {
+        displayName: 'Zachary Snell',
+        totalRaisedAmount: 0,
+        participantID: 262694,
+        createdOn: '2017-07-23T18:12:50-0400',
+        timestamp: 20170723101250664,
+        avatarImageURL: '//assets.donordrive.com/clients/extralife/img/avatar-constituent-default.gif',
+        isTeamCaptain: false
+      }
+    ]
+  },
+  twitch: {
+    users: [
+      {
+        display_name: 'Pariveda',
+        _id: '125579814',
+        name: 'pariveda',
+        type: 'user',
+        bio: null,
+        created_at: '2016-05-31T15:30:29.282031Z',
+        updated_at: '2017-10-18T16:02:12.145053Z',
+        logo: 'https://static-cdn.jtvnw.net/jtv_user_pictures/pariveda-profile_image-184cfcd1df8e9a72-300x300.png'
+      },
+      {
+        display_name: 'Pyroticblaziken',
+        _id: '23679089',
+        name: 'pyroticblaziken',
+        type: 'user',
+        bio: 'I am just a simple man playing some games and streaming them so that people can enjoy.',
+        created_at: '2011-07-26T17:26:53.393318Z',
+        updated_at: '2017-11-02T00:02:32.360901Z',
+        logo: 'https://static-cdn.jtvnw.net/jtv_user_pictures/pyroticblaziken-profile_image-9419234ef2c4ce12-300x300.png'
+      },
+      {
+        display_name: 'Zakodiac',
+        _id: '18587404',
+        name: 'zakodiac',
+        type: 'user',
+        bio: 'Long time gamer, Programer.25/StreamerTexas Software Engineer',
+        created_at: '2010-12-09T06:09:26.668535Z',
+        updated_at: '2017-10-28T05:03:21.542148Z',
+        logo: 'https://static-cdn.jtvnw.net/jtv_user_pictures/zakodiac-profile_image-7969653f559c2af9-300x300.jpeg'
+      },
+      {
+        display_name: 'arfreitas12',
+        _id: '8033143',
+        name: 'arfreitas12',
+        type: 'user',
+        bio: null,
+        created_at: '2009-08-30T03:33:59.11083Z',
+        updated_at: '2017-10-28T22:06:08.610339Z',
+        logo: null
+      },
+      {
+        display_name: 'vtor67',
+        _id: '25017586',
+        name: 'vtor67',
+        type: 'user',
+        bio: null,
+        created_at: '2011-09-24T00:38:20.807019Z',
+        updated_at: '2017-10-22T13:35:59.118719Z',
+        logo: 'https://static-cdn.jtvnw.net/jtv_user_pictures/vtor67-profile_image-91b431003397642c-300x300.jpeg'
+      },
+      {
+        display_name: 'kathleenlepirate',
+        _id: '88296258',
+        name: 'kathleenlepirate',
+        type: 'user',
+        bio: null,
+        created_at: '2015-04-11T23:00:42.951701Z',
+        updated_at: '2017-10-22T13:16:14.947052Z',
+        logo: null
+      },
+      {
+        display_name: 'ZephSinX',
+        _id: '57037409',
+        name: 'zephsinx',
+        type: 'user',
+        bio: null,
+        created_at: '2014-02-17T23:04:50.816972Z',
+        updated_at: '2017-09-28T23:31:26.843497Z',
+        logo: null
+      },
+      {
+        display_name: 'halfchickenhalfsteak',
+        _id: '75397148',
+        name: 'halfchickenhalfsteak',
+        type: 'user',
+        bio: null,
+        created_at: '2014-11-17T20:06:45.845727Z',
+        updated_at: '2017-09-30T03:30:07.456874Z',
+        logo: 'https://static-cdn.jtvnw.net/jtv_user_pictures/halfchickenhalfsteak-profile_image-4f3baf45170bd3af-300x300.png'
+      },
+      {
+        display_name: 'mdrewett',
+        _id: '126869760',
+        name: 'mdrewett',
+        type: 'user',
+        bio: null,
+        created_at: '2016-06-15T15:44:41.840678Z',
+        updated_at: '2017-10-16T00:54:18.383693Z',
+        logo: null
+      }
+    ],
+    streams: [
+      {
+        _id: 26629337696,
+        game: '',
+        broadcast_platform: 'live',
+        community_id: '',
+        community_ids: [],
+        viewers: 0,
+        video_height: 720,
+        average_fps: 61.4854894245,
+        delay: 0,
+        created_at: '2017-11-02T02:14:57Z',
+        is_playlist: false,
+        stream_type: 'live',
+        preview: {
+          small: 'https://static-cdn.jtvnw.net/previews-ttv/live_user_pyroticblaziken-80x45.jpg',
+          medium: 'https://static-cdn.jtvnw.net/previews-ttv/live_user_pyroticblaziken-320x180.jpg',
+          large: 'https://static-cdn.jtvnw.net/previews-ttv/live_user_pyroticblaziken-640x360.jpg',
+          template: 'https://static-cdn.jtvnw.net/previews-ttv/live_user_pyroticblaziken-{width}x{height}.jpg'
+        },
+        channel: {
+          mature: true,
+          status: 'Coding against Twitch API',
+          broadcaster_language: 'en',
+          display_name: 'Pyroticblaziken',
+          game: 'Programming',
+          language: 'en',
+          _id: 23679089,
+          name: 'pyroticblaziken',
+          created_at: '2011-07-26T17:26:53.393318Z',
+          updated_at: '2017-11-02T02:18:48.250809Z',
+          partner: false,
+          logo: 'https://static-cdn.jtvnw.net/jtv_user_pictures/pyroticblaziken-profile_image-9419234ef2c4ce12-300x300.png',
+          video_banner: null,
+          profile_banner: 'https://static-cdn.jtvnw.net/jtv_user_pictures/pyroticblaziken-profile_banner-c651b49967801bfe-480.png',
+          profile_banner_background_color: '',
+          url: 'https://www.twitch.tv/pyroticblaziken',
+          views: 1710,
+          followers: 37,
+          broadcaster_type: '',
+          description: 'I am just a simple man playing some games and streaming them so that people can enjoy.'
+        }
+      }
+    ],
+    _total: 1
+  }
+}

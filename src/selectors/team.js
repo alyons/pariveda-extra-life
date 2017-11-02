@@ -26,7 +26,7 @@ export const getTimestamp = (state) => {
     return state.team.timestamp || 0;
 };
 
-export const getTotalRaiseAmount = (state) => {
+export const getTotalRaisedAmount = (state) => {
     return state.team.totalRaisedAmount || 0;
 };
 
