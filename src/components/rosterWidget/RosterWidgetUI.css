@@ -2,14 +2,27 @@
     width: 400px;
     padding: 5px 15px;
     float: right;
-    border: 1px solid yellow;
 }
 
 .roster-item {
     display: flex;
     flex-direction: row;
+    margin: 5px 0;
     height: 100px;
-    border: 1px solid black;
+    background: linear-gradient(45deg, #305D54, #00AA98);
+    border-radius: 5px;
+}
+
+.roster-item:hover {
+    background: #00AA98;
+}
+
+.roster-item.place-0 {
+    background: linear-gradient(45deg, #1D6FA1, #59BFE5);
+}
+
+.roster-item.place-0:hover {
+    background: #59BFE5;
 }
 
 .roster-avatar {
@@ -17,23 +30,33 @@
     width: 80px;
     height: 80px;
     vertical-align: middle;
-    border: 1px solid red;
+    border-radius: 5px;
 }
 
 .roster-info {
+    color: white;
+    position: relative;
     flex-grow: 100;
-    border: 1px solid green;
+    text-align: center;
+}
+
+.roster-info-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .roster-donate {
-    padding: 10% 0;
+    color: white;
+    position: relative;
     width: 100px;
-    border: 1px solid blue;
+    text-align: center;
 }
 
-.roster-donate-link {
-    background-color: lightblue;
-    border-radius: 3px;
-    padding: 4px 10px;
-    color: white;
+.roster-donate-child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
