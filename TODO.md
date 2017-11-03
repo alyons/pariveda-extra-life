@@ -24,3 +24,5 @@ I made this so that people can monitor their different pages for Extra Life and 
 [Extra Life Api](https://www.npmjs.com/package/extra-life-api) Using this to create all of my calls
 
 [Timers in React with Redux](https://medium.com/@machadogj/timers-in-react-with-redux-apps-9a5a722162e8)
+
+[Multi-Action Dispatch from Single Action Creator](http://jamesknelson.com/can-i-dispatch-multiple-actions-from-redux-action-creators/)

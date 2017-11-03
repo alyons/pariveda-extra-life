@@ -7,7 +7,7 @@ import { getUsers, getStreams } from '../../selectors/twitch';
 function mapStateToProps(state, props) {
     return {
         users: getUsers(state),
-        getStreams: getStreams(state)
+        streams: getStreams(state)
     };
 };
 

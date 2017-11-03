@@ -5,8 +5,8 @@ body {
 }
 
 #container {
-  padding: 5px;
-  width: 960px;
+  padding: 0 20px;
+  width: 1366px;
   margin: 20px auto;
   border: 1px solid black;
 }
@@ -16,14 +16,6 @@ header {
   height: 100px;
   margin: 0 15px;
   border: 1px solid red;
-}
-
-#twitch {
-  width: 294px;
-  float: left;
-  padding: 5px 15px;
-  margin: 0px 5px 5px 5px;
-  border: 1px solid blue;
 }
 
 footer {

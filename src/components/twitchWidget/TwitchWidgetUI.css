@@ -1,0 +1,9 @@
+#twitch {
+    width: 294px;
+    float: left;
+    padding: 5px 15px;
+    margin: 0px 5px 5px 5px;
+    border: 1px solid blue;
+    display: flex;
+    flex-direction: row;
+}
