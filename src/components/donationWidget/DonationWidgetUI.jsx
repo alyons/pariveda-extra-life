@@ -12,6 +12,11 @@ class DonationWidgetUI extends Component {
             const barStyle = {
                 transform: `translateY(${donationProgress}%)`
             };
+            let barLines = [];
+            for(var i = 1; i < 10; i++) {
+                barLines.push(<div class={`bar-line line-${i}`} />);
+            }
+
             componentToRender = (
                 <div>
                     <div class="goal">
@@ -20,6 +25,7 @@ class DonationWidgetUI extends Component {
                     <div class="bar-container">
                         <div class="goal-bar">
                             <div class="bar-wrap">
+                                {barLines}
                                 <div class="bar" style={barStyle}>
                                     <div class="bar-info">
                                         <div class="bar-info-inner">

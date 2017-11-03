@@ -26,3 +26,5 @@ I made this so that people can monitor their different pages for Extra Life and 
 [Timers in React with Redux](https://medium.com/@machadogj/timers-in-react-with-redux-apps-9a5a722162e8)
 
 [Multi-Action Dispatch from Single Action Creator](http://jamesknelson.com/can-i-dispatch-multiple-actions-from-redux-action-creators/)
+
+[Vertical Progress Bar](https://julienmelissas.com/css-only-vertical-progress-bar/)

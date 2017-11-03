@@ -1,0 +1,25 @@
+.twitch-item {
+    padding: 5px;
+    width: 320px;
+    height: 240px;
+}
+
+.twitch-item a {
+    color: black;
+    text-decoration: none; 
+}
+
+.twitch-item a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+.twitch-item-inner {
+    vertical-align: middle;
+    text-align: center;
+    border: 1px solid cornflowerblue;
+}
+
+.twitch-item-offline {
+    padding: 82px 0;
+}

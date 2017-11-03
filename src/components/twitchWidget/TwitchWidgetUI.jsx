@@ -3,20 +3,6 @@ import { findIndex } from 'lodash';
 import TwitchItemUI from './TwitchItemUI';
 import './TwitchWidgetUI.css';
 
-const getStreamByChannelId = (streams, id) => {
-    if (!streams) {
-        return null;
-    }
-
-    for (var i = 0; i < streams.length; i++) {
-        if (streams[i].channel._id.toString() === id) {
-            return streams[i];
-        }
-    }
-
-    return null;
-};
-
 class TwitchWidgetUI extends Component {
     componentWillMount() {
         this.props.getTwitchData();
@@ -35,8 +21,10 @@ class TwitchWidgetUI extends Component {
             let offlineUsers = [];
 
             for(var i = 0; i < users.length; i++) {
+                let stream;
                 const channel = users[i];
-                const stream = getStreamByChannelId(streams, channel._id);
+                const index = findIndex(streams, (s) => { return s.channel._id.toString() === channel._id; });
+                if (index > -1) stream = streams[index];
 
                 if (!stream) {
                     offlineUsers.push(
@@ -55,7 +43,7 @@ class TwitchWidgetUI extends Component {
             }
 
             componentToRender = (
-                <div>
+                <div class="twitch-container">
                     {onlineUsers}
                     {offlineUsers}
                 </div>
