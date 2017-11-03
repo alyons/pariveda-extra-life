@@ -1,7 +1,7 @@
 .twitch-item {
     padding: 5px;
     width: 320px;
-    height: 240px;
+    height: 180px;
 }
 
 .twitch-item a {
@@ -15,11 +15,30 @@
 }
 
 .twitch-item-inner {
-    vertical-align: middle;
-    text-align: center;
-    border: 1px solid cornflowerblue;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
 }
 
-.twitch-item-offline {
-    padding: 82px 0;
+.twitch-item-inner.twitch-item-offline {
+    background: linear-gradient(45deg, #1D6FA1, #59BFE5);
+}
+
+.twitch-item-image {
+    filter: blur(2px);
+}
+
+.twitch-item-image:hover {
+    filter: none;
+}
+
+.twitch-item-label {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
 }

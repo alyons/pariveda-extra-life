@@ -15,16 +15,19 @@ class TwitchItemUI extends Component {
             componentToRender = (
                 <a href={streamLink} target="_blank">
                     <div class="twitch-item-inner twitch-item-offline">
-                        {channel.display_name} is currently offline.
+                        <span class="twitch-item-label">{channel.display_name} is currently offline.</span>
                     </div>
                 </a>
             );
         } else {
+            const innerStyle = {
+                filter: `blur(2px)`
+            };
             componentToRender = (
                 <a href={stream.channel.url} target="_blank">
                     <div class="twitch-item-inner">
-                        <div><img src={stream.preview.medium} /></div>
-                        <div><span>{channel.display_name}: {stream.game}</span></div>
+                        <img src={stream.preview.medium} class="twitch-item-image" />
+                        <span class="twitch-item-label">{channel.display_name}: {stream.game}</span>
                     </div>
                 </a>
             );

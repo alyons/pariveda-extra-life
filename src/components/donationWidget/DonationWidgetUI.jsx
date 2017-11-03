@@ -10,7 +10,7 @@ class DonationWidgetUI extends Component {
         if (fundraisingGoal) {
             donationProgress = Math.round(100 - Math.min((totalRaisedAmount / fundraisingGoal * 100), 100));
             const barStyle = {
-                transform: `translateY(60%)`// `translateY(${donationProgress}%)`
+                transform: `translateY(${donationProgress}%)`
             };
             let barLines = [];
             let barLabels =[];
@@ -19,9 +19,11 @@ class DonationWidgetUI extends Component {
                 barLabels.push(<span class={`bar-label line-${i}`}>${i}k</span>);
             }
 
+            let goalClass = (totalRaisedAmount >= fundraisingGoal) ? 'goal complete' : 'goal';
+
             componentToRender = (
                 <div>
-                    <div class="goal">
+                    <div class={goalClass}>
                         {`$${fundraisingGoal}`}
                     </div>
                     <div class="bar-container">
