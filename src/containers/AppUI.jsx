@@ -10,11 +10,35 @@ const TwitchWidgetComponent = TwitchWidget.Container;
 const RosterWidgetComponent = RosterWidget.Container;
 
 class AppUI extends ReactQueryParams {
+
+  state = {
+    timer: null,
+    counter: 0
+  };
+
+  constructor(props) {
+    super(props);
+
+    this.tick = this.tick.bind(this);
+  }
+
   componentWillMount() {
-    // const teamID = this.queryParams.teamID;
-    // if (teamID) {
     this.props.fetchTeamInfo(33379);
-    // }
+    this.props.getTwitchData();
+  }
+
+  componentDidMount() {
+    let timer = setInterval(this.tick, 30000);
+    this.setState({timer});
+  }
+
+  componentWillUnmount() {
+    this.clearInterval(this.state.timer);
+  }
+
+  tick() {
+    this.props.fetchTeamInfo(33379);
+    this.props.getTwitchData();
   }
   
   render() {
