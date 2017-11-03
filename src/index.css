@@ -2,7 +2,44 @@
 
 html, body {
   font-family: 'Lato', sans-serif;
+  width: 100%;
+  margin: auto;
 }
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+.header {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background: #525252;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  height: 100px;
+}
+
+.content {
+  top: 100px;
+  bottom: 50px;
+  position: fixed;
+  overflow: auto;
+}
+
+.footer {
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  background: #525252;
+  color: #FFF;
+}
+
+
 
 #container {
   background: white;
@@ -12,22 +49,6 @@ html, body {
   flex-direction: column;
 }
 
-header {
-  background: #525252;
-  color: #FFF;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
-  font-weight: bold;
-  height: 100px;
-  text-align: center;
-}
-
 h2 {
   line-height: 100px;
-}
-
-footer {
-  background: #525252;
-  color: #FFF;
-  border: 1px solid pink;
 }
