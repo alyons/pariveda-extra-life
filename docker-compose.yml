@@ -1,0 +1,6 @@
+extra-life:
+  build: .
+  ports:
+    - '3000:3000'
+  volumes:
+    - .:/home/app/extra-life
