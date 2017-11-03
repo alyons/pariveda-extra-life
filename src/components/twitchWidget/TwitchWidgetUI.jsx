@@ -5,7 +5,7 @@ import './TwitchWidgetUI.css';
 
 class TwitchWidgetUI extends Component {
     componentWillMount() {
-        this.props.getTwitchData();
+        // this.props.getTwitchData();
     }
 
     render() {
