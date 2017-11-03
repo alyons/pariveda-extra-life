@@ -25,6 +25,14 @@
     background: linear-gradient(45deg, #1D6FA1, #59BFE5);
 }
 
+.twitch-item-inner.twitch-item-offline:hover {
+    background: #59BFE5;
+}
+
+.twitch-item-inner.twitch-item-offline:active {
+    background: #304D5D;
+}
+
 .twitch-item-image {
     filter: blur(2px);
 }
