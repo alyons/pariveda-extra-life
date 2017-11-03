@@ -1,4 +1,7 @@
 import React, { Component } from 'react';
+import { findIndex } from 'lodash';
+import TwitchItemUI from './TwitchItemUI';
+import './TwitchWidgetUI.css';
 
 class TwitchWidgetUI extends Component {
     componentWillMount() {
@@ -14,19 +17,41 @@ class TwitchWidgetUI extends Component {
                 <p>No Twitch channels provided.</p>
             );
         } else {
-            const streamItems = users.map((streamer, i) => (
-                <li key={i}>
-                    <p>{streamer.display_name}</p>
-                </li>
-            ));
+            let onlineUsers = [];
+            let offlineUsers = [];
+
+            for(var i = 0; i < users.length; i++) {
+                let stream;
+                const channel = users[i];
+                const index = findIndex(streams, (s) => { return s.channel._id.toString() === channel._id; });
+                if (index > -1) stream = streams[index];
+
+                if (!stream) {
+                    offlineUsers.push(
+                        <TwitchItemUI key={i}
+                            channel={channel}   
+                            />
+                    );
+                } else {
+                    onlineUsers.push(
+                        <TwitchItemUI key={i}
+                            channel={channel}
+                            stream={stream}   
+                            />
+                    );
+                }
+            }
 
             componentToRender = (
-                <ul>{streamItems}</ul>
+                <div class="twitch-container">
+                    {onlineUsers}
+                    {offlineUsers}
+                </div>
             );
         }
 
         return (
-            <div id='twitch'>
+            <div id="twitch">
                 {componentToRender}
             </div>
         );

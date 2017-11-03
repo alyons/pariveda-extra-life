@@ -11,22 +11,18 @@ const RosterWidgetComponent = RosterWidget.Container;
 
 class AppUI extends ReactQueryParams {
   componentWillMount() {
-    const teamID = this.queryParams.teamID;
-    if (teamID) {
-      this.props.fetchTeamInfo(teamID);
-    }
+    // const teamID = this.queryParams.teamID;
+    // if (teamID) {
+    this.props.fetchTeamInfo(33379);
+    // }
   }
   
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to Extra Life!</h1>
-        </header>
         <DonationWidgetComponent />
         <TwitchWidgetComponent />
         <RosterWidgetComponent />
-        
       </div>
     );
   }
