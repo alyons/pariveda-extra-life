@@ -2,7 +2,79 @@
 
 html, body {
   font-family: 'Lato', sans-serif;
+  width: 100%;
+  margin: auto;
 }
+
+.container {
+  width: 1366px;
+  margin: 0 auto;
+}
+
+.header {
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background: #525252;
+  color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  font-weight: bold;
+  height: 100px;
+}
+
+header h2 {
+  text-align: center;
+  margin: 0 auto;
+}
+
+.content {
+  top: 100px;
+  bottom: 50px;
+  position: fixed;
+  overflow: auto;
+}
+
+.footer {
+  bottom: 0;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  background: #525252;
+  color: #FFF;
+  text-align: center;
+}
+
+footer {
+  position: relative;
+}
+
+footer span {
+  position: absolute;
+  font-weight: bold;
+  font-size: 1em;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 75%);
+}
+
+footer span a {
+  text-decoration: none;
+  color: #1D6FA1;
+}
+
+footer span a:hover {
+  color: #59BFE5;
+}
+
+footer span a:active {
+  color: #A9D7E9;
+}
+
+footer span a:visited {
+  color: #304D5D;
+}
+
 
 #container {
   background: white;
@@ -12,22 +84,6 @@ html, body {
   flex-direction: column;
 }
 
-header {
-  background: #525252;
-  color: #FFF;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 1.5em;
-  font-weight: bold;
-  height: 100px;
-  text-align: center;
-}
-
 h2 {
   line-height: 100px;
-}
-
-footer {
-  background: #525252;
-  color: #FFF;
-  border: 1px solid pink;
 }

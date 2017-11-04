@@ -14,15 +14,20 @@ const mapStateToProps = (state) => {
 function mapDispatchToProps(dispatch) {
   const twitchAccounts = [
     'pariveda',
-    'pyroticblaziken',
+    'BarclayWalsh',
     'halfchickenhalfsteak',
-    'zakodiac',
-    'rookienthevet',
-    'vtor67',
+    'Liandrielle',
     'kathleenlepirate',
     'mdrewett',
-    'zephsinx',
-    'Skulcat'
+    'oryo_casade',
+    'pariveda_la_office',
+    'pariveda_sea',
+    'pyroticblaziken',
+    'rookienthevet',
+    'Skulcat',
+    'vtor67',
+    'zakodiac',
+    'zephsinx'
   ];
   return {
     fetchTeamInfo: (teamId) => {
