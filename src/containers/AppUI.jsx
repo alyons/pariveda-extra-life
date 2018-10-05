@@ -23,7 +23,7 @@ class AppUI extends ReactQueryParams {
   }
 
   componentWillMount() {
-    this.props.fetchTeamInfo(33379);
+    this.props.fetchTeamInfo(39357);
     this.props.getTwitchData();
   }
 
@@ -37,7 +37,7 @@ class AppUI extends ReactQueryParams {
   }
 
   tick() {
-    this.props.fetchTeamInfo(33379);
+    this.props.fetchTeamInfo(39357);
     this.props.getTwitchData();
   }
   

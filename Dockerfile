@@ -1,7 +1,7 @@
-FROM node:6.11.4
+FROM node:8.11.3
 
 RUN useradd --user-group --create-home --shell /bin/false app &&\
-    yarn global add npm@5
+    yarn global add npm@6
 
 ENV HOME=/home/app
 

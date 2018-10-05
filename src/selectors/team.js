@@ -27,7 +27,7 @@ export const getTimestamp = (state) => {
 };
 
 export const getTotalRaisedAmount = (state) => {
-    return state.team.totalRaisedAmount || 0;
+    return state.team.sumDonations || 0;
 };
 
 export const getRoster = (state) => {
