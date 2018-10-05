@@ -25,7 +25,7 @@ export function getTeamInfoFailure(payload) {
 };
 
 export function getTeamInfo(teamId) {
-    const url = 'https://www.extra-life.org/index.cfm?fuseaction=donordrive.team&teamID=' + teamId + '&format=json';
+    const url = `https://extra-life.org/api/teams/${teamId}`;
     return dispatch => {
         dispatch(getTeamInfoRequest);
         return fetch(url)
@@ -63,7 +63,7 @@ export function getTeamRosterFailure(payload) {
 };
 
 export function getTeamRoster(teamId) {
-    const url = 'https://www.extra-life.org/index.cfm?fuseaction=donorDrive.teamParticipants&teamID=' + teamId + '&format=json';
+    const url = `https://extra-life.org/api/teams/${teamId}/participants`;
     return dispatch => {
         dispatch(getTeamRosterRequest);
         return fetch(url)

@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import './RosterWidgetUI.css';
 
 function compare(a, b) {
-    if (a.totalRaisedAmount < b.totalRaisedAmount)
+    if (a.sumDonations < b.sumDonations)
         return -1;
-    if (a.totalRaisedAmount > b.totalRaisedAmount)
+    if (a.sumDonations > b.sumDonations)
         return 1;
     return 0;
 };
@@ -26,7 +26,7 @@ class RosterWidgetUI extends Component {
                         <img class="roster-avatar" src={member.avatarImageURL} />
                         <div class="roster-info">
                             <div class="roster-info-child">
-                                {member.displayName}<br />{`$${member.totalRaisedAmount}`}
+                                {member.displayName}<br />{`$${member.sumDonations}`}
                             </div>
                         </div>
                         <div class="roster-donate">
