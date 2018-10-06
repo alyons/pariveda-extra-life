@@ -4,3 +4,4 @@ extra-life:
     - '3000:3000'
   volumes:
     - .:/home/app/extra-life
+    - /home/app/extra-life/node_modules

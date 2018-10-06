@@ -10,6 +10,6 @@ RUN chown -R app:app $HOME/*
 
 USER app
 WORKDIR $HOME/extra-life
-RUN npm install --quiet
+RUN npm ci
 
 CMD ["npm", "start"]
