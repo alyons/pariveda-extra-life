@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { findIndex } from 'lodash';
 import TwitchItemUI from './TwitchItemUI';
 import './TwitchWidgetUI.css';
 
@@ -23,7 +22,7 @@ class TwitchWidgetUI extends Component {
             for(var i = 0; i < users.length; i++) {
                 let stream;
                 const channel = users[i];
-                const index = findIndex(streams, (s) => { return s.channel._id.toString() === channel._id; });
+                const index = streams.findIndex((s) => { return s.channel._id.toString() === channel._id; });
                 if (index > -1) stream = streams[index];
 
                 if (!stream) {

@@ -1,11 +1,10 @@
-import { includes } from 'lodash';
 import { getTeamInfo, getTeamRoster } from '../actions/team';
 import { SET_TEAM_ID, GET_TEAM_INFO_SUCCESS } from '../actions/actionTypes';
 import { getId } from '../selectors/team';
 
 const actionWhiteList = [SET_TEAM_ID, GET_TEAM_INFO_SUCCESS];
 
-const actionInWhiteList = action => includes(actionWhiteList, action.type);
+const actionInWhiteList = action => actionWhiteList.includes(action.type);
 
 export const teamMiddleware = store => next => (action) => {
     next(action);
