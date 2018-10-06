@@ -1,11 +1,10 @@
-import { includes } from 'lodash';
 import { getTwitchStreams } from '../actions/twitch';
 import { TWITCH_USERS_SUCCESS } from '../actions/actionTypes';
 import { getUsers } from '../selectors/twitch';
 
 const actionWhiteList = [TWITCH_USERS_SUCCESS];
 
-const actionInWhiteList = action => includes(actionWhiteList, action.type);
+const actionInWhiteList = action => actionWhiteList.includes(action.type);
 
 export const twitchMiddleware = store => next => (action) => {
     next(action);

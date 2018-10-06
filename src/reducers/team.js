@@ -1,4 +1,3 @@
-import { assign } from 'lodash';
 import * as types from '../actions/actionTypes';
 
 const initialState = {
@@ -13,10 +12,10 @@ const initialState = {
 };
 
 export default function teamReducer(state = initialState, action) {
-    const newState = assign({}, state);
+    const newState = Object.assign({}, state);
     switch (action.type) {
         case types.GET_TEAM_INFO_SUCCESS: {
-            return assign({}, newState, action.payload);
+            return Object.assign({}, newState, action.payload);
         }
         case types.GET_TEAM_INFO_FAILURE: {
             console.log(action.payload);
